@@ -1,0 +1,142 @@
+html{
+	overflow:hidden;
+}
+body{
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	height: 100%;
+	border:0;
+	text-align: left;
+	background-color:#1c6fbf;
+}
+form{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear:both;
+	line-height:1px;
+}
+.login_main{
+	width: 996px;
+	margin: 0 auto;
+	text-align: left;
+	position:relative;
+}
+.login_top{
+	width: 100%;
+	height: 228px;
+	background-image: url(login_top.jpg);
+	background-repeat: no-repeat;
+}
+.login_middle{
+	width: 100%;
+	height: 265px;
+}
+.login_middleleft{
+	float: left;
+	width: 551px;
+	height: 100%;
+	background-image: url(login_centerleft.jpg);
+	background-repeat: no-repeat;
+}
+.login_middlecenter{
+	float: left;
+	width: 445px;
+	height: 100%;
+	background-image: url(login_centerright.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+}
+.login_bottom{
+	width: 100%;
+	height: 102px;
+	background-image: url(login_bottom.jpg);
+	background-repeat: no-repeat;
+}
+.login_title{
+	position:absolute;
+	left:380px;
+	top:165px;
+	width:412px;
+	height:44px;
+	background-image: url(title.png);
+	background-repeat: no-repeat;
+}
+.letter_space{
+letter-spacing:1em;
+}
+.login_user{
+	padding:0 0 0 0px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.login_pass{
+	padding:14px 0 0 0px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.login_form{
+	padding:50px 0 0 70px;
+}
+.login_button input{
+	width: 75px;
+	height: 28px;
+	background-image: url(../../images/icons/click.gif);
+	background-color:transparent;
+	border:0;
+	cursor:pointer;
+	cursor:hand;
+}
+.login_user input{
+	border:solid 1px #70b3cd;
+	background-color:#ffffff;
+	width:150px;
+	height:18px;
+	line-height:18px;
+}
+.login_pass input{
+	border:solid 1px #70b3cd;
+	background-color:#ffffff;
+	width:150px;
+	height:18px;
+	line-height:18px;
+}
+.login_button_left{
+	position:absolute;
+	left:603px;
+	top:398px;
+}
+.login_button_right{
+	position:absolute;
+	left:698px;
+	top:398px;
+}
+.login_copyright{
+	color:#ffffff;
+	text-align:center;
+	padding:70px  0 0 0px;
+}
+.login_info{
+	color:red;
+	position:absolute;
+	left:580px;
+	top:360px;
+	line-height:150%;
+	width:240px;
+	overflow:hidden;
+}
+.login_skin{
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	color:#ffffff;
+	height:30px;
+	line-height:30px;
+}
+.login_skin span{
+	cursor:pointer;
+	cursor:hand;
+}

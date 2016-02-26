@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="loco" namespace="/" extends="common">
+		<action name="locoAction" class="locoAction">
+	  		<result name="countLocoOnFix">query/count_index.jsp</result>
+	  		<result name="gzgdt">gdt/gz/jcgz_gdt.jsp</result>
+	  		<result name="lcgdt">gdt/lc/jcgz_gdt.jsp</result>
+	  		<result name="ssgdt">gdt/ss/jcgz_gdt.jsp</result>
+	  		<result name="zzgdt">gdt/zz/jcgz_gdt.jsp</result>
+	  		<result name="csgdt">gdt/cs/jcgz_gdt.jsp</result>
+	  		<result name="hhgdt">gdt/hh/jcgz_gdt.jsp</result>
+	  		<result name="findPlanInfoDetail">query/jc_infodetail.jsp</result>
+	  	</action>
+	</package>
+</struts>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="recorder" namespace="/" extends="common">
+		<action name="recorderAction" class="recorderAction">
+	  		<result name="countFixRec">query/recorder/count_fixrec.jsp</result>
+	  		<result name="countPartRate">query/recorder/count_part.jsp</result>
+	  		<result name="countReport">query/recorder/count_report.jsp</result>
+	  		<result name="countPlan">query/recorder/count_plan.jsp</result>
+	  		<result name="countJgPredict">query/recorder/count_jg.jsp</result>
+	  		<result name="recorderLx">query/recorder/recorder_lx.jsp</result>
+	  		<result name="recorderQz">query/recorder/recorder_qz.jsp</result>
+	  		<result name="recorderXfStander">query/recorder/recorder_xf_stander.jsp</result>
+	  		<result name="recorderXf">query/recorder/recorder_xf.jsp</result>
+	  		<result name="recorderBzQz">query/recorder/recorder_bz_qz.jsp</result>
+	  		<result name="recorderBzLx">query/recorder/recorder_bz_lx.jsp</result>
+	  		<result name="recorderBz">query/recorder/recorder_bz.jsp</result>
+	  		<result name="recorderZxBz">query/recorder/recorder_zx_bz.jsp</result>
+	  		<result name="recorderJc">query/recorder/recorder_jc.jsp</result>
+	  		<result name="recorderZxJc">query/recorder/recorder_zx_jc.jsp</result>
+	  		<result name="recorderHis">query/recorder/recorder_history.jsp</result>
+	  		<result name="recorderAllPre">query/recorder/recorder_all_pre.jsp</result>
+	  		<result name="recorderFinish">query/recorder/recorder_finish.jsp</result>
+	  		<result name="recorderYsjc">query/recorder/recorder_ysjc.jsp</result>
+	  		<result name="experimentWaterCooking">query/recorder/experiment_water_cooking.jsp</result>
+	  		<result name="experimentDfTrialRun">query/recorder/experiment_df_trial_running.jsp</result>
+	  		<result name="experimentSsTrialRun">query/recorder/experiment_ss_trial_running.jsp</result>
+	  		<result name="experimentLowHighPress">query/recorder/experiment_low_high_pressure.jsp</result>
+	  		<result name="experimentCrownChakra">query/recorder/experiment_crown_chakra.jsp</result>
+	  		<result name="recorderOil">query/recorder/recorder_oil.jsp</result>
+	  		<result name="leftWorkRecord">query/recorder/recorder_leftwork.jsp</result>
+	  		<result name="leftZxWorkRecord">query/recorder/recorder_zx_leftwork.jsp</result>
+	  		<result name="recorderDynamic">query/recorder/recorder_dynamic.jsp</result>
+	  		<result name="recorderPart">query/recorder/recorder_part.jsp</result>
+	  		<result name="recorderPartDetail">query/recorder/recorder_part_detail.jsp</result>
+	  		<result name="recorderOtPj">query/recorder/recorder_other_pj.jsp</result>
+	  		<result name="recorderXxPj">query/recorder/recorder_xx_pj.jsp</result>
+	  		<result name="recorderZxPj">query/recorder/recorder_zx_pj.jsp</result>
+	  		<result name="recorderTsPj">query/recorder/recorder_ts_pj.jsp</result>
+	  		<result name="recorderPjNum">query/recorder/recorder_pj_num.jsp</result>
+	  		<result name="recorderZx">query/recorder/recorder_zx.jsp</result>
+	  		<result name="recorderUnitPj">query/recorder/recorder_unit_pj.jsp</result>
+	  		<result name="recorderUnitDetail">query/recorder/recorder_unit_detail.jsp</result>
+	  		<result name="countReportDetail">query/recorder/recorder_report_detail.jsp</result>
+	  		<result name="fixRecOnPlan">query/recorder/recorder_planfix_rec.jsp</result>
+	  		<result name="findRecOnNum">query/recorder/recorder_numfix_rec.jsp</result>
+	  		<result name="countReportCategoryShow">query/recorder/count_report_category.jsp</result>
+	  		<result name="countReportCategoryType">query/recorder/count_report_type.jsp</result>
+	  		<result name="countReportCategoryJctype">query/recorder/count_report_jctype.jsp</result>
+	  		<result name="countPlans">query/recorder/count_plans.jsp</result>
+	  		<result name="countPlansDetail">query/recorder/recorder_plan_detail.jsp</result>
+	  		<result name="createMonthMSArea2DCharts">query/recorder/month_anomalous.jsp</result>
+	  	</action>
+	</package>
+</struts>
